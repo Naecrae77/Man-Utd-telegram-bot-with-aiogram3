@@ -1,6 +1,5 @@
 pandas
 openai
-ast
 aiogram
 asyncio
 scipy
