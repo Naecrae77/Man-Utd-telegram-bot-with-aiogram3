@@ -1,0 +1,11 @@
+pandas
+openai
+ast
+aiogram
+asyncio
+scipy
+python-dotenv
+mwclient
+mwparserfromhell
+re
+tiktoken
