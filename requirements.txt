@@ -7,5 +7,4 @@ scipy
 python-dotenv
 mwclient
 mwparserfromhell
-re
 tiktoken
