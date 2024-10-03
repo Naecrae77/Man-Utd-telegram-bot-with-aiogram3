@@ -7,7 +7,6 @@ from openai import OpenAI
 import tiktoken
 import os
 from dotenv import load_dotenv
-from data_processing_functions import GPT_MODEL
 from df import df
 
 load_dotenv()
@@ -17,6 +16,7 @@ openai = OpenAI(
   api_key = OPEN_AI_TOKEN,
 )
 
+GPT_MODEL = "gpt-3.5-turbo" 
 EMBEDDING_MODEL = "text-embedding-ada-002"
 
 # Search function
